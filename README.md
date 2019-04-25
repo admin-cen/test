@@ -3,11 +3,11 @@
 # 一个会动的简历模板
 > This is my resume
 
-[预览](https://joeybling.github.io/anires/index.html "https://joeybling.github.io/anires/index.html")
+[预览](https://zhousiwei.gitee.io/anires/index.html "https://zhousiwei.gitee.io/anires/index.html")
 
 ## 使用方法
 ```bash
-git clone https://github.com/JoeyBling/anires.git
+git clone https://gitee.com/zhousiwei/anires.git
 cd anires
 npm install
 npm run dev
@@ -26,4 +26,4 @@ git push
 ```
 3. 开启 GitHub Pages 功能，把生成的目标文件`public/*`放在你的web服务器上。
 
-4. 访问地址：[https://your-github-username.github.io/anires/public](https://joeybling.github.io/anires/index.html "https://joeybling.github.io/anires/index.html")
+4. 访问地址：[https://your-github-username.github.io/anires/public](https://zhousiwei.gitee.io/anires/index.html "https://zhousiwei.gitee.io/anires/index.html")
