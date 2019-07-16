@@ -27,3 +27,18 @@ git push
 3. 开启 GitHub Pages 功能，把生成的目标文件`public/*`放在你的web服务器上。
 
 4. 访问地址：[https://your-github-username.github.io/anires/public](https://zhousiwei.gitee.io/anires/index.html "https://zhousiwei.gitee.io/anires/index.html")
+
+## [关于我](https://zhousiwei.gitee.io/)
+&#160;&#160;&#160;&#160;試毅-思伟，三年Java EE 从业经验。
+
+## 試毅-思伟_开发笔记：[https://zhousiwei.gitee.io/ibooks/](https://zhousiwei.gitee.io/ibooks/)
+
+- 包含了`开源项目介绍`、`Java笔记`、`前端开发笔记`、`Hexo博客笔记`、`日记本`、`Linux笔记`、`ELK日志分析`
+
+1. [开源项目介绍](https://zhousiwei.gitee.io/ibooks/)
+2. [Java笔记](https://zhousiwei.gitee.io/ibooks/java/springboot2.html)
+3. [前端开发笔记](https://zhousiwei.gitee.io/ibooks/web/)
+4. [Hexo博客笔记](https://zhousiwei.gitee.io/ibooks/hexo/hexo_music.html)
+5. [日记本](https://zhousiwei.gitee.io/ibooks/notes/git_branch.html)
+6. [Linux笔记](https://zhousiwei.gitee.io/ibooks/linux/glibc.html)
+7. [ELK日志分析](https://zhousiwei.gitee.io/ibooks/elk/linux_es5.html)
