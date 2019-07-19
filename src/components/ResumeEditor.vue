@@ -12,10 +12,10 @@ export default {
   name: "ResumeEditor",
   computed: {
     result: function() {
-      var rendererMD = new marked.Renderer();
+      const renderer = new marked.Renderer();
       //基本设置
       marked.setOptions({
-        renderer: rendererMD,
+        renderer: renderer,
         gfm: true, //允许 Git Hub标准的markdown.
         tables: true, //允许支持表格语法（该选项要求 gfm 为true）
         breaks: true, //允许回车换行（该选项要求 gfm 为true）
@@ -25,13 +25,14 @@ export default {
         smartypants: false //使用更为时髦的标点
       });
       //https://github.com/markedjs/marked/issues/655#issuecomment-383226346
-      const linkRenderer = rendererMD.link;
-      rendererMD.link = (href, title, text) => {
-        const html = linkRenderer.call(rendererMD, href, title, text);
+      const linkRenderer = renderer.link;
+      renderer.link = (href, title, text) => {
+        const html = linkRenderer.call(renderer, href, title, text);
         return html.replace(/^<a /, '<a target="_blank" rel="nofollow" ');
       };
+
       return this.enableHtml
-        ? marked(this.markdown, { rendererMD })
+        ? marked(this.markdown, { renderer })
         : this.markdown;
     }
   },
